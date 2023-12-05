@@ -25,7 +25,17 @@ pak::pak("mikejohnpage/finddxgap")
 ``` r
 library(finddxgap)
 
-# Add examples here
+# Compute a diagnostic gap
+cases <- data.frame(
+  estimated = c(100, 80, 100),
+  notified = c(10, 60, 70)
+)
+
+dxgap(cases, estimated, notified)
+#>   estimated notified dxgap
+#> 1       100       10    90
+#> 2        80       60    25
+#> 3       100       70    30
 ```
 
 ## Contributing
