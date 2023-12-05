@@ -83,7 +83,17 @@
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://mikejohnpage.github.io/finddxgap/">finddxgap</a></span><span class="op">)</span></span>
 <span></span>
-<span><span class="co"># Add examples here</span></span></code></pre></div>
+<span><span class="co"># Compute a diagnostic gap</span></span>
+<span><span class="va">cases</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html" class="external-link">data.frame</a></span><span class="op">(</span></span>
+<span>  estimated <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="fl">100</span>, <span class="fl">80</span>, <span class="fl">100</span><span class="op">)</span>,</span>
+<span>  notified <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="fl">10</span>, <span class="fl">60</span>, <span class="fl">70</span><span class="op">)</span></span>
+<span><span class="op">)</span></span>
+<span></span>
+<span><span class="fu"><a href="reference/dxgap.html">dxgap</a></span><span class="op">(</span><span class="va">cases</span>, <span class="va">estimated</span>, <span class="va">notified</span><span class="op">)</span></span>
+<span><span class="co">#&gt;   estimated notified dxgap</span></span>
+<span><span class="co">#&gt; 1       100       10    90</span></span>
+<span><span class="co">#&gt; 2        80       60    25</span></span>
+<span><span class="co">#&gt; 3       100       70    30</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="contributing">Contributing<a class="anchor" aria-label="anchor" href="#contributing"></a>
