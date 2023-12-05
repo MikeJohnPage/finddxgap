@@ -1,0 +1,19 @@
+Package: finddxgap
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Anna", "Mantsoki", , "anna.mantsoki@finddx.org", role = c("aut", "cre")),
+    person("Mike", "Page", , "mike@cynkra.com", role = "aut"),
+    person("Andrea", "Ranzato", , "andrea@cynkra.com", role = "aut"),
+    person("FIND", role = c("cph", "fnd"))
+  )
+Description: What the package does (one paragraph).
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    dplyr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

@@ -1,10 +1,22 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  message = FALSE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
 
 # finddxgap <img src='man/figures/logo.png' align="right" height="150" /></a>
 
 <!-- badges: start -->
-
 [![R-CMD-check](https://github.com/MikeJohnPage/finddxgap/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/MikeJohnPage/finddxgap/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
@@ -19,10 +31,8 @@ finddxgap provides functions to calculate and model a diagnostic gap.
 # install.packages("pak")
 pak::pak("mikejohnpage/finddxgap")
 ```
-
 ## Usage
-
-``` r
+```{r}
 library(finddxgap)
 
 # Add examples here
@@ -30,13 +40,10 @@ library(finddxgap)
 
 ## Contributing
 
-To contribute to this project, please follow [GitHub
-Flow](https://guides.github.com/introduction/flow/) when submitting
-changes.
+To contribute to this project, please follow [GitHub Flow](https://guides.github.com/introduction/flow/)
+when submitting changes.
 
-> Please note that this project is released with a Contributor Code of
-> Conduct. By participating in this project you agree to abide by its
-> terms.
+> Please note that this project is released with a Contributor Code of Conduct. By participating in this project you agree to abide by its terms.
 
 ## Credits
 
