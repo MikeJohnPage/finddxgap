@@ -9,6 +9,13 @@
 To learn more about finddxgap, see the individual help files for each
 function.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://mikejohnpage.github.io/finddxgap/}
+}
+
+}
 \author{
 \strong{Maintainer}: Anna Mantsoki \email{anna.mantsoki@finddx.org}
 

@@ -39,8 +39,7 @@ system.
 
 \examples{
 \dontrun{
-# Calculate diagnostic gap for 2019 TB data:
-build_tbl("tb", 2019, vars = dxgap_const$tb_vars) |>
-  compute_dx_gap()
+tb_cases <- data.frame(estimated = c(80, 100), notified = c(60, 70))
+dxgap(tb_cases, estimated, notified)
 }
 }
