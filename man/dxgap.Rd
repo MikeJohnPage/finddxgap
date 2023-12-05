@@ -18,7 +18,7 @@ additional column called \code{dxgap} containing the computed diagnostic
 gap values.
 }
 \description{
-\code{dx_gap()} calculates a diagnostic gap defined as the proportion of
+\code{dxgap()} calculates a diagnostic gap defined as the proportion of
 the population with the condition who are undiagnosed.
 }
 \section{Calculation}{
@@ -27,7 +27,7 @@ the population with the condition who are undiagnosed.
 For each country and year in the data, the diagnostic gap can be computed
 as follows:
 
-diagnostic gap = (estimated cases - notified cases) / estimated cases
+diagnostic gap = (estimated cases - notified cases) / estimated cases * 100
 
 In other words, we can define the diagnostic gap as the gap between the
 estimated number of people who fall ill each year and the number of people
